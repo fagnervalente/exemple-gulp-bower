@@ -1,0 +1,22 @@
+{
+  "name": "exemple-gulp-bower",
+  "version": "0.0.0",
+  "description": "A sample of how to manage your packages with bower to a smart way.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fagnervalente/exemple-gulp-bower.git"
+  },
+  "author": "fagnervalente",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-wiredep": "0.0.0",
+    "wiredep": "^4.0.0"
+  }
+}
